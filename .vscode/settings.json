@@ -1,0 +1,15 @@
+{ 
+    "editor.minimap.enabled": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.lightbulb.enabled": false,
+    "editor.semanticTokenColorCustomizations": {
+        "[Gitpod Light]": {"rules": {"other": "#335f66", "variable": "#7f197f"}},
+        "[GitHub Light Default]": {"rules": {"other": "#335f66", "variable": "#7f197f"}},
+        "[Default Light+]": {"rules": {"other": "#335f66", "variable": "#7f197f"}}
+    },
+    "editor.rulers": [100],
+    "lean4.infoview.showExpectedType": false,
+    "lean4.infoview.emphasizeFirstGoal": true,
+    "lean4.infoview.showGoalNames": false,
+}
