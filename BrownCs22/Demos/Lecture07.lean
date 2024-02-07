@@ -61,7 +61,7 @@ We said that to prove `∀ x : T, ...` goals, we got to introduce a new
 `x : T`. The tactic for this proof rule is familiar. The pattern here
 sounds a lot like implication: move something from the goal to the context.
 
-We use the tactic `intro` again!
+We use the tactic `fix`. It's a lot like `assume`!
 
 The `reflexivity` tactic will prove things equal to themselves.
 This is a very basic property of `=`.
