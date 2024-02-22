@@ -1,3 +1,12 @@
+# Check if requests is installed and, if not, install it
+if ! command -v pip3 &> /dev/null || ! python3 -m pip show requests &> /dev/null; then
+  echo "Installing Python dependencies (this may take a little bit)..."
+  wget https://bootstrap.pypa.io/get-pip.py
+  python3 get-pip.py
+  pip install requests
+  rm get-pip.py
+fi
+
 # Stores id of HEAD commit
 HC=$(git rev-parse HEAD)
 
