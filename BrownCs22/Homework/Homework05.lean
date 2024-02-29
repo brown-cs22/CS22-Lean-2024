@@ -81,6 +81,6 @@ Now we'll prove that every number is either even or odd, phrased in terms of
 -/
 
 @[autograded 4]
-example : ∀ n : ℕ, 2 ∣ n ∨ 2 ∣ n + 1 := by
+theorem problem_2 : ∀ n : ℕ, 2 ∣ n ∨ 2 ∣ n + 1 := by
   sorry
   done
